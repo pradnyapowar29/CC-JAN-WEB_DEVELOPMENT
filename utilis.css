@@ -1,0 +1,57 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap'); </style>
+<style> @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Proza+Libre&family=Rubik&display=swap'); </style>
+:root{
+--main-bg-color: purple;
+--font1:'IBM Plex Sans', sans-serif;
+--font2:'Proza Libre', sans-serif;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+.max-width-1{
+    max-width: 80vx; 
+    
+}
+
+.max-width-2{
+    max-width: 60vx;
+}
+
+.m-auto{
+    margin: 10px;
+}
+.my-2{
+    margin-top: 12px;
+    padding-top: 3px;
+}
+
+.btn{
+padding: 0px 20px;
+padding-top: 3px;
+border: 3px solid black;
+border-radius: 10px;
+font-family: var(--font1);
+font-size: 16px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: black;
+    background: purple;
+}
+
+.form.input{
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
